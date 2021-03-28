@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#box {
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  fill: white;
+  width: 55%;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+#display {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  margin: 0 auto;
+  color: white;
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 950px) {
+  #name {
+    width: 35%;
+  }
+  #display {
+    width: 35%;
+    font-size: 2rem;
+  }
+}
